@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mediapipe = "==0.8.11"
+opencv-python = "*"
+future = "==0.18.2"
+matplotlib = "==3.5.1"
+numpy = "==1.22.1"
+omegaconf = "==2.1.1"
+opencv-python-headless = "==4.5.5.62"
+pandas = "==1.4.0"
+pillow = "==9.1.1"
+preprocessing = "==0.1.13"
+protobuf = "==3.20.2"
+seaborn = "==0.11.2"
+tensorboard = "==2.8.0"
+torch = "==1.11.0"
+torchmetrics = "==0.8.0"
+torchvision = "==0.12.0"
+tqdm = "==4.64.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
