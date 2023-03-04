@@ -7,6 +7,10 @@ import torch
 from torchvision.transforms import functional as func
 import time
 
+import sqlite3
+conn = sqlite3.connect("Gesture_recognition")
+c = conn.cursor()
+
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
