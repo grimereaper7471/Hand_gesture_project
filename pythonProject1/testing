@@ -1,0 +1,32 @@
+import tkinter as tk
+
+class MyGUI:
+    def __init__(self, master):
+        self.master = master
+        master.title("My GUI")
+
+        self.label = tk.Label(master, text="This is my GUI!")
+        self.label.pack()
+
+        self.quit_button = tk.Button(master, text="Quit", command=master.quit)
+        self.quit_button.pack()
+
+class MainGUI:
+    def __init__(self, master):
+        self.master = master
+        master.title("Main GUI")
+
+        self.label = tk.Label(master, text="Hello, World!")
+        self.label.pack()
+
+        self.my_button = tk.Button(master, text="Open My GUI", command=self.open_my_gui)
+        self.my_button.pack()
+
+    def open_my_gui(self):
+        my_gui_window = tk.Toplevel(self.master)
+        my_gui = MyGUI(my_gui_window)
+
+root = tk.Tk()
+main_gui = MainGUI(root)
+root.mainloop()
+
