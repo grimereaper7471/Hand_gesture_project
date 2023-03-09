@@ -1,6 +1,6 @@
 from tkinter import *
 import sqlite3
-
+from Database_functions import Functions
 
 root = Tk()
 root.title("Database Login")
