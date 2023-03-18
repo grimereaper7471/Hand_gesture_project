@@ -24,3 +24,9 @@ Next cd into the cloned enviroment and make sure using `ls` that it does have th
 This will install all need files and derectorys however opencv seems to have a strange bug so make it work simple unistall it and reinstal it using `pip uninstall opencv-python` `pip install opencv-python`
 
 to test if it works simple run ever the hand detection.py or the hand classification.py
+
+### How to delete pipenv:
+
+Use the terminal `cd` to the location of the pipenv file and write this in the termail, this will delete all active pipenvs with in that location`pipenv --rm`
+
+After that do as show above in the github document file so that any changes will be done to the code would be done within the pipenv.
