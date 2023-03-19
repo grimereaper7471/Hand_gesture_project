@@ -19,7 +19,7 @@ Next cd into the derectory you want to clone this github repository into and clo
 
 If done correct you should be able to see the clone repository with in the want decertory with a zipped file called hagrid unzip this file.
 
-Next cd into the cloned enviroment and make sure using `ls` that it does have the pipenv file and the piplock file then run `ipenv install`and then after run `pip shell`
+Next cd into the cloned enviroment and make sure using `ls` that it does have the pipenv file and the piplock file then run `pipenv install`and then after run `pip shell`
 
 This will install all need files and derectorys however opencv seems to have a strange bug so make it work simple unistall it and reinstal it using `pip uninstall opencv-python` `pip install opencv-python`
 
